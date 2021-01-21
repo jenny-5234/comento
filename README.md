@@ -25,4 +25,5 @@ ___
 2. 요청 parameter, 응답 데이터 포맷을 고려 
 
  - API 가이드 문서 : 
-[API 가이드 문서.pdf](https://github.com/jenny-5234/comento/files/5847743/API.pdf)
+[API 가이드 문서.pdf](https://github.com/jenny-5234/comento/files/5847798/API.pdf)
+
