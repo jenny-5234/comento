@@ -14,3 +14,4 @@
 3. GitHub 생성 & 연동
    - 깃허브 주소 : https://github.com/jenny-5234/comento
    - 연동에 참고 : https://blog.naver.com/zzang9ha/222021569120 
+___
