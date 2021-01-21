@@ -9,7 +9,8 @@
   
 2. Spring 프로젝트 시작
    - DB 구축
-   
+   ![image](https://user-images.githubusercontent.com/64400743/105322954-e407a000-5c0c-11eb-953d-7c31489ba55a.png)
+
    - HelloWorld 페이지
    
 3. GitHub 생성 & 연동
