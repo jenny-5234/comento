@@ -40,5 +40,13 @@ ___
 
 1. Spring boot 개발환경 셋팅
  - Test 화면 출력
-![image](https://user-images.githubusercontent.com/64400743/106135177-e89efc00-61aa-11eb-9e66-a7e73b217747.png)
+
+![image](https://user-images.githubusercontent.com/64400743/106135279-0a987e80-61ab-11eb-8839-d13b1e92a95f.png)
+
+
+2. API를 위한 DB 설정
+  - 데이터 입력
+  
+  ![image](https://user-images.githubusercontent.com/64400743/106137169-af1bc000-61ad-11eb-98d3-ad90f7b55a3d.png)
+
 
