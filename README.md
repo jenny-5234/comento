@@ -68,8 +68,10 @@ ___
 ![image](https://user-images.githubusercontent.com/64400743/106142769-3ae51a80-61b5-11eb-883e-65b5e20fe485.png)
 
  - 일별 평균 접속자 수
+     => 진행중 추후 추가
  
  - 휴일을 제외한 로그인 수
+     => 진행중 추후 추가
  
  - 부서별 접속자 수
  
