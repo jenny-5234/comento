@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jenny.settingweb_boot.dao.StatisticMapper">
+
+	<select id="selectYearLogin" parameterType="string" resultType="hashMap">
+		select count(*) as totCnt
+		from statistc.requestinfo ri
+		where left(ri.createDate, 2) = #{year};
+	</select>
+
+	<select id="selectMonthLogin" parameterType="string" resultType="hashMap">
+		select count(*) as totCnt
+		from statistc.requestinfo ri
+		where mid(ri.createDate, 3, 2) = #{month};
+	</select>
+	
+	<select id="selectDailyLogin" parameterType="string" resultType="hashMap">
+		select count(*) as totCnt
+		from statistc.requestinfo ri
+		where mid(ri.createDate, 3, 4) = #{daily};
+	</select>
+	
+	<select id="selectDailyAvgLogin" parameterType="string" resultType="hashMap">
+		select AVG(totCnt) 
+		from from statistc.requestinfo ri;
+	</select>
+	
+	<select id="selectDepcodeLogin" parameterType="string" resultType="hashMap">
+	 	select count(*) as totCnt
+	 	from statistc.requestinfo ri
+	 	where departmentCode = #{depCode};
+	</select>
+	
+</mapper>
