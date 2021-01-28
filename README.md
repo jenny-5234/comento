@@ -22,6 +22,7 @@
    - 깃허브 주소 : https://github.com/jenny-5234/comento
    - 연동에 참고 : https://blog.naver.com/zzang9ha/222021569120 
 ___
+
 <2주차>
 1. SW활용률 API 가이드 작성
    - 접속자 수 
@@ -32,4 +33,12 @@ ___
 
  - API 가이드 문서 : 
 [API 가이드 문서.pdf](https://github.com/jenny-5234/comento/files/5847798/API.pdf)
+
+___
+
+<3주차>
+
+1. Spring boot 개발환경 셋팅
+ - Test 화면 출력
+![image](https://user-images.githubusercontent.com/64400743/106135177-e89efc00-61aa-11eb-9e66-a7e73b217747.png)
 
