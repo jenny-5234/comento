@@ -69,6 +69,8 @@ ___
 
  - 일별 평균 접속자 수
  
+ - 휴일을 제외한 로그인 수
+ 
  - 부서별 접속자 수
  
  ![image](https://user-images.githubusercontent.com/64400743/106142896-649e4180-61b5-11eb-8cda-ea9ab5992773.png)
