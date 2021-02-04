@@ -42,18 +42,27 @@ public class settingTest {
 		return service.DailyLoginNum(daily);
 	}
 	
-	// 평균 하루 로그인 수
+	// 월별 평균 하루 로그인 수
 	@ResponseBody
 	@RequestMapping("/sqldailyAvgStatistic")
-	public Map<String, Object> sqltest3(String dailyavg) throws Exception {
+	public Map<String, Object> sqltest3(String month) throws Exception {
 
-		return service.DailyAvgLoginNum(dailyavg);
+		return service.DailyAvgLoginNum(month);
 	}
+	
+	// 휴일을 제외한 월별 로그인 수
+	@ResponseBody
+	@RequestMapping("/sqlexcHolidayStatistic")
+	public Map<String, Object> sqltest4(String yearMonth) throws Exception {
+		
+		return service.ExcHolidayLoginNum(yearMonth);
+	}
+	
 	
 	//부서별 접속자
 	@ResponseBody
 	@RequestMapping("/sqldepcodeStatistic")
-	public Map<String, Object> sqltest4(String depcode) throws Exception {
+	public Map<String, Object> sqltest5(String depcode) throws Exception {
 
 		return service.DepcodeLoginNum(depcode);
 	}

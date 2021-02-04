@@ -24,8 +24,17 @@
 	</select>
 	
 	<select id="selectDailyAvgLogin" parameterType="string" resultType="hashMap">
-		select AVG(totCnt) 
-		from from statistc.requestinfo ri;
+		select count(*)/30 as AvgDaily 
+		from statistc.requestinfo ri
+		where mid(ri.createDate, 3, 2) = #{month};
+	</select>
+	
+	<select id="selectExcHolidayLogin" parameterType="string" resultType="hashMap">
+		select count(*) as totCnt
+		from statistc.requestinfo ri 
+		where left(ri.createDate, 6) not in 
+				(select mid(hol.Hdate, 3, 8) From statistc.Holiday hol)
+		AND left(ri.createDate, 4) = #{yearMonth};
 	</select>
 	
 	<select id="selectDepcodeLogin" parameterType="string" resultType="hashMap">

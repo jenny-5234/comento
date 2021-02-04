@@ -14,8 +14,13 @@ public interface StatisticMapper {
 	public HashMap<String, Object> selectDailyLogin(String daily);
 	
 	// 일별 평균 로그인 수 
-	public HashMap<String, Object> selectDailyAvgLogin(String dailyavg);
+	public HashMap<String, Object> selectDailyAvgLogin(String month);
+	
+	// 휴일을 제외한 월별 로그인 수
+	public HashMap<String, Object> selectExcHolidayLogin(String yearMonth);
 	
 	// 부서별 로그인 수 
 	public HashMap<String, Object> selectDepcodeLogin(String depcode);
+
+
 }
