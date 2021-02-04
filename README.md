@@ -77,6 +77,9 @@ ___
  - 휴일을 제외한 로그인 수
  
  ![image](https://user-images.githubusercontent.com/64400743/106924163-2626fa80-6752-11eb-80c5-08abaebe9917.png)
+ 
+ ![image](https://user-images.githubusercontent.com/64400743/106925207-34c1e180-6753-11eb-8cc1-141afe0361c6.png)
+
 
      
  - 부서별  접속자 수
