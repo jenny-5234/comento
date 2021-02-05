@@ -115,16 +115,18 @@ public class StatisticServiceImpl implements StatisticService {
 
 	// 부서별 접속자 수
 	@Override
-	public HashMap<String, Object> DepcodeLoginNum(String depcode) {
+	public HashMap<String, Object> DeptcodeLoginNum(String deptcode, String yearMonth) {
 		HashMap<String, Object> retVal = new HashMap<String, Object>();
 
 		try {
-			retVal = uMapper.selectDepcodeLogin(depcode);
-			retVal.put("depcode", depcode);
+			retVal = uMapper.selectDeptcodeLogin(deptcode, yearMonth);
+			retVal.put("deptcode", deptcode);
+			retVal.put("yearMonth", yearMonth);
 			retVal.put("is_success", true);
 		} catch (Exception e) {
 			retVal.put("totCnt", -999);
-			retVal.put("depcode", depcode);
+			retVal.put("deptcode", deptcode);
+			retVal.put("yearMonth", yearMonth);
 			retVal.put("is_success", false);
 		}
 		return retVal;
@@ -137,21 +139,24 @@ public class StatisticServiceImpl implements StatisticService {
 //		PreparedStatement pstmt = null;
 //
 //		try {
+//			//파일 경로 (인코딩 x)
 //			File file = new File("C:\\Users\\jenny\\OneDrive\\바탕 화면\\Holiday.txt");
 //			// 입력 스트림 생성
 //			FileReader filereader = new FileReader(file);
 //			// 입력 버퍼 생성
 //			BufferedReader bufReader = new BufferedReader(filereader);
 //
+//			// DB 정보 입력
 //			Class.forName("org.mariadb.jdbc.Driver");
 //			Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/statistc?user=root&password=753421");
+//	
 //			// DB 연결 실패
 //			if (conn == null) {
 //				System.out.println("DB 연결 실패");
 //			} else {
 //				System.out.println("DB 연결");
 //
-//				// isert 쿼리
+//				// insert 쿼리
 //				String sql = "INSERT INTO holiday(Hnum, Hdate) values (?,?)";
 //
 //				pstmt = conn.prepareStatement(sql);
@@ -159,7 +164,8 @@ public class StatisticServiceImpl implements StatisticService {
 //				String s;
 //
 //				while ((s = bufReader.readLine()) != null) {
-//
+//					
+//					// txt 파일 내용을 탭으로 구분하여 분리
 //					String[] split = s.split("\t");
 //
 //					Hnum = split[0];

@@ -61,10 +61,10 @@ public class settingTest {
 	
 	//부서별 접속자
 	@ResponseBody
-	@RequestMapping("/sqldepcodeStatistic")
-	public Map<String, Object> sqltest5(String depcode) throws Exception {
+	@RequestMapping("/sqldeptcodeStatistic")
+	public Map<String, Object> sqltest5(String deptcode, String yearMonth) throws Exception {
 
-		return service.DepcodeLoginNum(depcode);
+		return service.DeptcodeLoginNum(deptcode, yearMonth);
 	}
 
 	// test 페이지

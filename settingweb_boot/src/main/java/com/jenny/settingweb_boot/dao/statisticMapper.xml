@@ -37,10 +37,11 @@
 		AND left(ri.createDate, 4) = #{yearMonth};
 	</select>
 	
-	<select id="selectDepcodeLogin" parameterType="string" resultType="hashMap">
-	 	select count(*) as totCnt
-	 	from statistc.requestinfo ri
-	 	where departmentCode = #{depCode};
+	<select id="selectDeptcodeLogin" parameterType="string" resultType="hashMap">
+		SELECT COUNT(*) AS totCnt
+		FROM statistc.requestinfo ri
+		WHERE departmentCode = #{deptcode}
+		AND left(ri.createDate, 4) = #{yearMonth};
 	</select>
 	
 </mapper>

@@ -19,8 +19,8 @@ public interface StatisticMapper {
 	// 휴일을 제외한 월별 로그인 수
 	public HashMap<String, Object> selectExcHolidayLogin(String yearMonth);
 	
-	// 부서별 로그인 수 
-	public HashMap<String, Object> selectDepcodeLogin(String depcode);
+	// 부서별 월별 로그인 수 
+	public HashMap<String, Object> selectDeptcodeLogin(String deptcode, String yearMonth);
 
 
 }

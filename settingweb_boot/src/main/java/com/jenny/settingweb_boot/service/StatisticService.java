@@ -19,6 +19,6 @@ public interface StatisticService {
 	public HashMap<String, Object> ExcHolidayLoginNum(String yearMonth);
 
 	// 부서별 로그인 수
-	public HashMap<String, Object> DepcodeLoginNum(String depcode);
+	public HashMap<String, Object> DeptcodeLoginNum(String deptcode, String yearMonth);
 
 }
