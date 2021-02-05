@@ -68,12 +68,21 @@ ___
 ![image](https://user-images.githubusercontent.com/64400743/106142769-3ae51a80-61b5-11eb-883e-65b5e20fe485.png)
 
  - 일별 평균 접속자 수
-     => 진행중 추후 추가
+    
+    ![image](https://user-images.githubusercontent.com/64400743/106919238-4c966700-674d-11eb-9a6d-5553b92545a4.png)
+
+![image](https://user-images.githubusercontent.com/64400743/106921415-5620ce80-674f-11eb-959b-8d447850aeb6.png)
+
  
  - 휴일을 제외한 로그인 수
-     => 진행중 추후 추가
  
- - 부서별 접속자 수
+ ![image](https://user-images.githubusercontent.com/64400743/106924163-2626fa80-6752-11eb-80c5-08abaebe9917.png)
+ 
+ ![image](https://user-images.githubusercontent.com/64400743/106925207-34c1e180-6753-11eb-8cc1-141afe0361c6.png)
+
+
+     
+ - 부서별  접속자 수
  
  ![image](https://user-images.githubusercontent.com/64400743/106142896-649e4180-61b5-11eb-8cda-ea9ab5992773.png)
 
