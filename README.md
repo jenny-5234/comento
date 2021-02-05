@@ -1,5 +1,5 @@
 # comento
----
+
 <1주차>
 1. 개발환경 셋팅
    - 이클립스 설치
@@ -21,7 +21,7 @@
 3. GitHub 생성 & 연동
    - 깃허브 주소 : https://github.com/jenny-5234/comento
    - 연동에 참고 : https://blog.naver.com/zzang9ha/222021569120 
-___
+---
 
 <2주차>
 1. SW활용률 API 가이드 작성
@@ -34,7 +34,7 @@ ___
  - API 가이드 문서 : 
 [API 가이드 문서.pdf](https://github.com/jenny-5234/comento/files/5847798/API.pdf)
 
-___
+---
 
 <3주차>
 
