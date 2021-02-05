@@ -75,6 +75,10 @@ ___
 
  
  - 휴일을 제외한 로그인 수
+    - 공휴일 데이터 db 저장
+    
+    ![image](https://user-images.githubusercontent.com/64400743/107040716-f7b52800-6802-11eb-85f9-1b26e23aee22.png)
+
  
  ![image](https://user-images.githubusercontent.com/64400743/106924163-2626fa80-6752-11eb-80c5-08abaebe9917.png)
  
@@ -82,13 +86,10 @@ ___
 
 
      
- - 부서별  접속자 수
+ - 부서별 월별 접속자 수
  
- ![image](https://user-images.githubusercontent.com/64400743/106142896-649e4180-61b5-11eb-8cda-ea9ab5992773.png)
+ ![image](https://user-images.githubusercontent.com/64400743/107040907-2fbc6b00-6803-11eb-9676-296de9ac9577.png)
 
-
-![image](https://user-images.githubusercontent.com/64400743/106143004-87305a80-61b5-11eb-9e8a-d9c4428ea794.png)
-
- 
+![image](https://user-images.githubusercontent.com/64400743/107040944-3c40c380-6803-11eb-9fcc-ba866405cf7f.png)
 
 
