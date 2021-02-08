@@ -93,3 +93,7 @@
 ![image](https://user-images.githubusercontent.com/64400743/107040944-3c40c380-6803-11eb-9fcc-ba866405cf7f.png)
 
 
+ - API 가이드 문서 : 
+[API 가이드 문서-수정.pdf](https://github.com/jenny-5234/comento/files/5942375/API.-.pdf)
+
+
